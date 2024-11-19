@@ -1,0 +1,78 @@
+
+
+body{
+    background-color: bisque;
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    text-align: center;
+}
+
+#header{
+    background-color: rgb(177, 156, 130);
+    padding: 10px;
+    text-align: center;
+}
+#header .nav-links li{
+    width: 100%;
+   display: inline;
+    padding: 20px;
+}
+#header  .nav-links :hover{
+    background-color: azure;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-wrap: wrap;.nanum-myeongjo-regular {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+}
+
+.flex-container div{
+   background-color: white;
+   padding: 10px;
+   margin: 10px;
+   width: 500px;
+   
+
+}
+.nanum-myeongjo-regular {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  #chaela{
+    padding: 20px;
+  }
+ 
+#footer{
+    background-color: white;
+}
+
+#WilmU {
+    transition: width 2s, height 2s, transform 2s;
+  }
+  
+  #WilmU:hover {
+    transform: rotate(360deg);
+  }
+  #UD {
+    transition: width 2s, height 2s, transform 2s;
+  }
+  
+  #UD:hover {
+    transform: rotate(360deg);
+  }
+  #Concord {
+    transition: width 2s, height 2s, transform 2s;
+  }
+  
+  #Concord:hover {
+    transform: rotate(360deg);
+  }
